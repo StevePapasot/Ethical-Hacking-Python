@@ -2,7 +2,7 @@ import socket
 import time
 import subprocess
 import json
-v
+
 
 def reliable_send(data):
     jsondata = json.dumps(data)
